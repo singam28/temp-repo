@@ -1,3 +1,9 @@
+provider "aws" {
+  region = "us-east-1"
+}
+
+  
+
 locals {
   arr = ["host1", "host2", "host3"]
 }
